@@ -1,6 +1,6 @@
 print ('y = √x³/x³+3/x * (4x⁷ - x⁵) + 80*√(27x⁴+12x³-5x²+10)')
-
 a = int(input('x=')) 
+
 b = (a ** 3)
 c = (b ** 0.5)
 # вычисляет корень из x³
@@ -28,9 +28,9 @@ print('')
 print('Дано выражение:')
 print('y = √x³/x³+3/x * (4x⁷ - x⁵) + 80*√(27x⁴+12x³-5x²+10)')
 print('')
-print(f'при x={a}     y={y}')
-print(f'            y={z}')
-print('')
+print(f'при x={a}')
+print(f'y={z}')          
+print(f'y={y}')
 print('')
 print('')
 print('')
